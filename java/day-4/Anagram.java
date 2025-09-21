@@ -20,8 +20,10 @@ public class Anagram {
 
     public static void main(String[] args) {
 
-        System.out.println(isAnagram("anagram", "nagaram"));
-        System.out.println(isAnagram("rat", "car"));
+        Anagram obj = new Anagram();
+
+        System.out.println(obj.isAnagram("anagram", "nagaram"));
+        System.out.println(obj.isAnagram("rat", "car"));
 
     }
 }
